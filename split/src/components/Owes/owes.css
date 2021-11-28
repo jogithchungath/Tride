@@ -1,0 +1,28 @@
+.container-owes {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 4rem;
+    padding-top: 144px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.owes-table {
+    background-color: rgb(250, 102, 102);
+    color: black;
+    border-radius: 2px;
+    padding: 0rem 15rem;
+    margin: 1rem 0;
+}
+
+@media(max-width: 640px) {
+    .container-owes {
+        padding-top: 118px;
+        padding-bottom: 4rem;
+    }
+}
