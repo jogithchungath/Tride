@@ -1,0 +1,12 @@
+.DataVisualizer table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 3px 3px 3px #9B9B9B;
+  border: 2px solid #E2E1E1;
+}
+
+.DataVisualizer td {
+  border: 1px solid #E2E1E1;
+  padding: 6px;
+}

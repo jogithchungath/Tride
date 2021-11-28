@@ -1,0 +1,97 @@
+.NewEntryForm {
+  width: 100%;
+  margin: auto;
+}
+
+.NewEntryForm label {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.NewEntryForm .form-header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.NewEntryForm .form-header h4 {
+  align-self: center;
+}
+
+.NewEntryForm .units-selector {
+  margin-left: 20px;
+}
+
+.NewEntryForm fieldset {
+  border: none;
+}
+
+.NewEntryForm .error {
+  color: #E25959;
+  text-align: center;
+}
+
+.NewEntryForm div {
+  flex: 0 0 20%;
+  text-align: right;
+  padding: 10px 0;
+}
+
+.NewEntryForm input, .NewEntryForm select {
+  flex: 1 1 75%;
+  margin-left: 5%;
+  border: 1px solid #9B9B9B;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: medium;
+}
+
+.NewEntryForm input.has-error {
+  border: 1px solid #E25959;
+}
+
+.NewEntryForm select {
+  max-width: 110px;
+}
+
+.NewEntryForm button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #9B9B9B;
+  background-color: #1561E4;
+  font-size: medium;
+  color: white;
+  outline: none;
+}
+
+.NewEntryForm button:hover {
+  background-color: #467CE0
+}
+
+.NewEntryForm button.destructive {
+  background-color: #E25959;
+}
+
+.NewEntryForm button.destructive:hover {
+  background-color: #F08989;
+}
+
+.NewEntryForm button + button {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .NewEntryForm {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .NewEntryForm {
+    width: 60%;
+  }
+}

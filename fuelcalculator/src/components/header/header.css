@@ -1,0 +1,11 @@
+.Header {
+  background-color: #222;
+  color: white;
+  font-size: large;
+  height: 71px;
+}
+
+.Header h2 {
+  padding: 20px;
+  margin: 0;
+}
